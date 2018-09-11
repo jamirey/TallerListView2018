@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TallerListView2018</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="valordellado">Valor del Lado</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="borrar">BORRAR</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="lado1">Lado 1 :</string>
+    <string name="lado2">Lado 2 :</string>
+    <string name="triangulo">Triangulo</string>
+    <string name="valorbase">Valor Base :</string>
+    <string name="valoraltura">Valor Altura :</string>
+</resources>
