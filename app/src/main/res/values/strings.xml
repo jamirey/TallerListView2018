@@ -10,4 +10,11 @@
     <string name="triangulo">Triangulo</string>
     <string name="valorbase">Valor Base :</string>
     <string name="valoraltura">Valor Altura :</string>
+    <string name="valordelradio">Valor del Radio :</string>
+    <string name="esfera">Esfera</string>
+    <string name="no">No.</string>
+    <string name="operacion">Operacion</string>
+    <string name="datos">Datos</string>
+    <string name="datodos">Dato 2</string>
+    <string name="resultado">Resultado</string>
 </resources>

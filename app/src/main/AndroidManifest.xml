@@ -21,7 +21,11 @@
         <activity android:name=".OperacionesRealizadas" />
         <activity android:name=".Cuadrado" />
         <activity android:name=".Rectangulo" />
-        <activity android:name=".Triangulo"></activity>
+        <activity android:name=".Triangulo" />
+        <activity android:name=".Esfera" />
+        <activity android:name=".Cilindro" />
+        <activity android:name=".Cono" />
+        <activity android:name=".VistaCalculo"></activity>
     </application>
 
 </manifest>
