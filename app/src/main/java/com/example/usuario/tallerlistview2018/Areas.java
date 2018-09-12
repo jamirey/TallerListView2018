@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.R;
+import android.R.*;
+
 
 public class Areas extends AppCompatActivity {
 
