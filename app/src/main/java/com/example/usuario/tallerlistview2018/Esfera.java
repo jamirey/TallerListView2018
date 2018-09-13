@@ -39,4 +39,14 @@ public class Esfera extends AppCompatActivity {
         startActivity(In);
 
     }
+
+    public void limpiar (View v){
+        borrar();
+    }
+
+    private  void borrar (){
+
+        Radio.setText("");
+        Radio.requestFocus();
+    }
 }

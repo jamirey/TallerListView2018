@@ -42,4 +42,15 @@ public class Triangulo extends AppCompatActivity {
         startActivity(In);
 
     }
+
+    public void limpiar (View v){
+        borrar();
+    }
+
+    private  void borrar (){
+
+        ValorBase.setText("");
+        ValorAltura.setText("");
+        ValorBase.requestFocus();
+    }
 }

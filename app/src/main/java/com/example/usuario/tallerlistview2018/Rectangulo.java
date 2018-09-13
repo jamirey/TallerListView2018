@@ -38,4 +38,15 @@ public class Rectangulo extends AppCompatActivity {
         startActivity(In);
 
     }
+
+    public void limpiar (View v){
+        borrar();
+    }
+
+    private  void borrar (){
+
+        Lado1.setText("");
+        Lado2.setText("");
+        Lado1.requestFocus();
+    }
 }

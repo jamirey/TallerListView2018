@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TallerListView2018</string>
+    <string name="cuadrado">Square</string>
+    <string name="valordellado">" Side Value"</string>
+    <string name="calcular">" CALCULATE"</string>
+    <string name="borrar">DELETE</string>
+    <string name="rectangulo">" Rectangle"</string>
+    <string name="lado1">" Side 1:"</string>
+    <string name="lado2">" Side 2:"</string>
+    <string name="triangulo">Triangle</string>
+    <string name="valorbase">" Base value :"</string>
+    <string name="valoraltura">" Height value:"</string>
+    <string name="valordelradio">" Value of the Radio:"</string>
+    <string name="esfera">" Sphere"</string>
+    <string name="no">No</string>
+    <string name="operacion">" Operation"</string>
+    <string name="datos">Data</string>
+    <string name="dato2" translatable="false">" Data 2"</string>
+    <string name="resultado">" Result"</string>
+    <string name="ok">OK</string>
+    <string name="cilindro">" Cylinder"</string>
+    <string name="cono">" Cone"</string>
+    <string name="areas">Areas</string>
+    <string name="volumenes">Volumes</string>
+    <string name="operaciones_Realizadas">" Operations carried out"</string>
+</resources>

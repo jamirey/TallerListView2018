@@ -35,4 +35,16 @@ public class Cuadrado extends AppCompatActivity {
         In.putExtra("textResultado","Area: "+obj.getRes());
         startActivity(In);
     }
+
+    pu
+
+    public void limpiar (View v){
+        borrar();
+    }
+
+    private  void borrar (){
+
+        Lado.setText("");
+        Lado.requestFocus();
+    }
 }
