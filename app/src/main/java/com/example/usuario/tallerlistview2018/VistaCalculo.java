@@ -15,7 +15,7 @@ public class VistaCalculo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vista_calculo);
 
-        TituloOperaciones= (TextView) findViewById(R.id.TituloOperacion);
+        TituloOperaciones= (TextView) findViewById(R.id.tituloOperacion);
         textResultado= (TextView) findViewById(R.id.textResultado);
         TituloOperaciones.setText(getIntent().getExtras().getString("TituloOperaciones"));
         textResultado.setText(getIntent().getExtras().getString("textResultado"));

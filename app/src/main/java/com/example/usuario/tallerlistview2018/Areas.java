@@ -8,12 +8,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.R;
-import android.R.*;
-
 
 public class Areas extends AppCompatActivity {
-
     private Resources resource;
     private ListView listView;
     private Intent in;
@@ -23,7 +19,6 @@ public class Areas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_areas);
-
         resource = this.getResources();
         listView = (ListView)findViewById(R.id.ValoresAreas);
         valores = getResources().getStringArray(R.array.ValoresAreas);

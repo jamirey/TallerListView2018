@@ -22,7 +22,7 @@ public class OperacionesRealizadas extends AppCompatActivity {
         Resultado=DatosResultado.obtener();
 
         for (int i = 0; i <Resultado.size() ; i++) {
-            String dato2 = Resultado.get(i).getLado2() == 0 ? "N/A": ""+Resultado.get(i).getLado2();
+            String dato2 = Resultado.get(i).getDat2() == 0 ? "N/A": ""+Resultado.get(i).getDat2();
             TableRow fila = new TableRow(this);
             TextView c1 = new TextView(this);
             TextView c2 = new TextView(this);
@@ -31,10 +31,10 @@ public class OperacionesRealizadas extends AppCompatActivity {
             TextView c5 = new TextView(this);
 
             c1.setText(""+(i+1));
-            c2.setText(""+Resultado.get(i).getOperacion());
-            c3.setText(""+Resultado.get(i).getLado());
+            c2.setText(""+Resultado.get(i).getOper());
+            c3.setText(""+Resultado.get(i).getDat1());
             c4.setText(""+dato2);
-            c5.setText(""+Resultado.get(i).getResultado());
+            c5.setText(""+Resultado.get(i).getRes());
 
             fila.addView(c1);
             fila.addView(c2);

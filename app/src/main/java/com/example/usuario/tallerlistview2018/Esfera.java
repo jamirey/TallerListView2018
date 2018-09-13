@@ -26,16 +26,16 @@ public class Esfera extends AppCompatActivity {
 
         double res;
 
-        int radio= Integer.parseInt(Radio.getText().toString());
+        Double radio= Double.parseDouble(Radio.getText().toString());
 
         res= (4*Math.PI*Math.pow(radio,3))/3;
 
-        Resultado obj = new Resultado("Area del Esfera",res,radio);
+        Resultado obj = new Resultado("Area del Esfera",radio,0.0,res);
         obj.guardar();
 
         In= new Intent(Esfera.this, VistaCalculo.class);
         In.putExtra("TituloOperaciones",resource.getString(R.string.esfera));
-        In.putExtra("textResultado","Area: "+obj.getResultado());
+        In.putExtra("textResultado","Area: "+obj.getRes());
         startActivity(In);
 
     }

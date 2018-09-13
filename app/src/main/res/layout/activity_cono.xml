@@ -26,13 +26,11 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtRadio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/textView20"
@@ -43,13 +41,11 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtAltura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="number" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,17 +54,31 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/btnCalcular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/calcular" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/btnCancelar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="@string/borrar" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
 </LinearLayout>
